@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-24 md:pt-28 scroll-mt-24 md:scroll-mt-28"
       style={{
         backgroundImage: 'url(/cnc-bg.jpg)',
         backgroundSize: 'cover',
@@ -35,7 +35,7 @@ const Hero = () => {
           {/* Company Badge */}
           <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-400/30 rounded-full px-6 py-2 mb-8">
             <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-            <span className="text-blue-200 text-sm font-medium">Since 1998 • ISO 9001:2015 Certified</span>
+            <span className="text-blue-200 text-sm font-medium">1998 • ISO 9001:2015 CertifiedSince </span>
           </div>
 
           <h1 className="font-montserrat font-bold text-4xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight mt-24 md:mt-32">
