@@ -82,7 +82,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'marketing@wmindustriesinida.co.in'
+      content: 'marketing@wmindustriesindia.co.in'
     },
     {
       icon: Clock,
@@ -159,7 +159,7 @@ const Contact = () => {
                 method="POST"
                 className="space-y-6"
               >
-                <input type="hidden" name="_replyto" value="marketing@wmindustriesinida.co.in" />
+                <input type="hidden" name="_replyto" value="marketing@wmindustriesindia.co.in" />
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                     Full Name *
